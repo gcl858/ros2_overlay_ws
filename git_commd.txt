@@ -1,0 +1,9 @@
+git clone https://github.com/gcl858/ros2_overlay_ws.git
+
+git config --global user.name "gcl858"
+git config --global user.email "gcl858@gmail.com"
+
+git config --global credential.helper wincred
+
+cd ~/git_demo/ros2_overlay_ws
+git remote show origin
